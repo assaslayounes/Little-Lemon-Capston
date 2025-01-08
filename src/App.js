@@ -10,7 +10,7 @@ import Menu from './components/Menu';
 function App() {
   const items = ["HOME", "ABOUT", "MENU", "RESERVATIONS", "OREDER ONLINE", "LOGIN"];
   const availableTimes = ["12:00","13:00","14:00","15:00","16:00","17:00","17:00","18:00","19:00"];
-  const occasion = ["Birthday", "Anniversary","business","casual"];
+  const occasion = ["Birthday", "Anniversary"];
   return (
     <>
      <Nav logo={logo} items={items} />
